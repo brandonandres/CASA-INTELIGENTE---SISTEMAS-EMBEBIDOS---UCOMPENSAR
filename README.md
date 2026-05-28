@@ -505,9 +505,16 @@ facilita el mantenimiento y la expansión futura del sistema.
 
 ---
 
-# Autor
+# Autores
 
-Proyecto desarrollado para:
+Karen Stefania Rivera Carrero
+Lina Marcela Contreras Sanabria
+Luis Alejandro Naranjo Garavito
+Carlos Alberto Castro Castillo
+Samuel Felipe Rojas Heredia
+Brandon Andres Leon Caro
+
+Proyecto desarrollado para: Diego Alejandro Barragan Vargas
 
 ## Fundación Universitaria Compensar
 
