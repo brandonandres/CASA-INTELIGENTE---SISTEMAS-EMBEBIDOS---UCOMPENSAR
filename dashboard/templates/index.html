@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Casa Inteligente</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+
+    <meta http-equiv="refresh" content="2">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        CASA INTELIGENTE - SISTEMAS EMBEBIDOS - UCOMPENSAR - TELECOMUNICACIONES
+
+    </div>
+
+    <!-- GRID -->
+
+    <div class="grid">
+
+        <!-- BAÑO -->
+
+        <div class="room">
+
+            <div class="icon">
+                🚿
+            </div>
+
+            <div class="titulo">
+                BAÑO
+            </div>
+
+            <div class="info">
+                Modo:
+                {{ estado_bano }}
+            </div>
+
+        </div>
+
+        <!-- HABITACION -->
+
+        <div class="room">
+
+            <div class="icon">
+                🛏️
+            </div>
+
+            <div class="titulo">
+                HABITACION
+            </div>
+
+            <div class="info">
+                💡 Luces:
+                {{ estado_luces }}
+            </div>
+
+            <div class="info">
+                🪟 Persiana:
+                {{ estado_persiana }}
+            </div>
+
+        </div>
+
+        <!-- COCINA -->
+
+        <div class="room">
+
+            <div class="icon">
+                🍳
+            </div>
+
+            <div class="titulo">
+                COCINA
+            </div>
+
+            <div class="info">
+                ❄️ Nevera:
+                {{ estado_nevera }}
+            </div>
+
+            <div class="info">
+                🔥 Cocina:
+                {{ estado_cocina }}
+            </div>
+
+            <div class="info">
+                🌪️ Extractor:
+                {{ estado_extractor }}
+            </div>
+
+            <div class="info">
+                💡 Luces:
+                {{ estado_luces_cocina }}
+            </div>
+
+        </div>
+
+        <!-- PARQUEADERO -->
+
+        <div class="room">
+
+            <div class="icon">
+                🚗
+            </div>
+
+            <div class="titulo">
+                PARQUEADERO
+            </div>
+
+            <div class="info">
+                🚪 Estado:
+                {{ estado_parqueadero }}
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

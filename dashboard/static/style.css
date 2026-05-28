@@ -1,0 +1,142 @@
+body {
+
+    background: #E5E7EB;
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 30px;
+
+}
+
+/* ========================= */
+/* TITULO */
+/* ========================= */
+
+.header {
+
+    width: fit-content;
+
+    margin: 0 auto 40px auto;
+
+    background: white;
+
+    border: 2px solid #A1A1A1;
+
+    border-radius: 18px;
+
+    padding:
+        16px
+        28px;
+
+    text-align: center;
+
+    font-size: 28px;
+
+    font-weight: bold;
+
+    color: #404040;
+
+    letter-spacing: 1px;
+
+    box-shadow:
+        0px 8px 20px rgba(0,0,0,0.05);
+
+}
+
+/* ========================= */
+/* GRID */
+/* ========================= */
+
+.grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 320px));
+
+    justify-content: center;
+
+    gap: 30px;
+
+}
+
+/* ========================= */
+/* ROOM */
+/* ========================= */
+
+.room {
+
+    background: white;
+
+    border: 2px solid #A1A1A1;
+
+    border-radius: 30px;
+
+    padding: 30px;
+
+    text-align: center;
+
+    box-shadow:
+        0px 10px 25px rgba(0,0,0,0.06);
+
+    transition: 0.3s;
+
+}
+
+.room:hover {
+
+    transform: translateY(-6px);
+
+}
+
+/* ========================= */
+/* ICONO */
+/* ========================= */
+
+.icon {
+
+    font-size: 80px;
+
+    margin-bottom: 20px;
+
+}
+
+/* ========================= */
+/* TITULO ROOM */
+/* ========================= */
+
+.titulo {
+
+    font-size: 32px;
+
+    font-weight: bold;
+
+    color: #2563eb;
+
+    margin-bottom: 20px;
+
+}
+
+/* ========================= */
+/* INFO */
+/* ========================= */
+
+.info {
+
+    background: #eff6ff;
+
+    padding: 12px;
+
+    margin-top: 12px;
+
+    border-radius: 14px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    color: #0f172a;
+
+}
